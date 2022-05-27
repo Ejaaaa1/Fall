@@ -1,5 +1,4 @@
-<details>
-<summary><h3> Requirements 📝</h3></summary>
+## Requirements 📝</h3></summary>
 
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
