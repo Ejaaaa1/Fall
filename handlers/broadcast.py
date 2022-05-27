@@ -24,8 +24,8 @@ async def broadcast(_, message: Message):
             try:
                 await Anonymous.send_message(dialog.chat.id, lmao)
                 sent = sent+1
-                await wtf.edit(f"`ᴍᴇɴʏᴇʙᴀʀᴋᴀɴ...` \n\n**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴛᴏ :** `{sent}` **ᴄʜᴀᴛs** \n**ꜰᴀɪʟᴇᴅ ɪɴ :** `{failed}` **ᴄʜᴀᴛs**")
+                await wtf.edit(f"`ᴍᴇɴʏᴇʙᴀʀᴋᴀɴ...` \n\n**ᴘᴇsᴀɴ ᴋᴇ :** `{sent}` **ᴘᴇʀᴄᴀᴋᴀᴘᴀɴ** \n**ɢᴀɢᴀʟ ᴍᴇɴʏᴇʙᴀʀ :** `{failed}` ** ᴘᴇʀᴄᴀᴋᴀᴘᴀɴ**")
                 await asyncio.sleep(0.3)
             except:
                 failed=failed+1
-        await message.reply_text(f"**ᴘᴇsᴀɴ ʙᴇʀʜᴀsɪʟ ᴅɪsᴇʙᴀʀᴋᴀɴ** \n\n**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴛᴏ :** `{sent}` **ᴄʜᴀᴛs** \n**ꜰᴀɪʟᴇᴅ ɪɴ​ :** `{failed}` **ᴄʜᴀᴛs**")
+        await message.reply_text(f"**ᴘᴇsᴀɴ ʙᴇʀʜᴀsɪʟ ᴅɪsᴇʙᴀʀᴋᴀɴ** \n\n**ʙʀᴏᴀᴅᴄᴀsᴛᴇᴅ ᴛᴏ :** `{sent}` **ᴄʜᴀᴛs** \n**ɢᴀɢᴀʟ ᴍᴇɴʏᴇʙᴀʀ :** `{failed}` **ᴘᴇʀᴄᴀᴋᴀᴘᴀɴ**")
