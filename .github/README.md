@@ -1,4 +1,7 @@
-## Requirements 📝</h3></summary>
+## 📡 Fall Robot 📡 
+Bot music yang dipersembahkan kepada anda para jamet telegram !
+<details>
+<summary><h3></summary> Requirements 📝</h3></summary>
 
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
