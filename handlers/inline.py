@@ -47,4 +47,4 @@ async def inline(client: Client, query: InlineQuery):
                 results=answers,
                 cache_time=0,
                 switch_pm_text="ᴇʀʀᴏʀ : sᴇᴀʀᴄʜ ᴛɪᴍᴇᴅ ᴏᴜᴛ ",
-                switch_pm_parameter="1",
+                switch_pm_parameter="1",)
